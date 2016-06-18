@@ -1,1 +1,1 @@
-web: gunicorn ic-test1.wsgi --log-file -
+web: python manage.py runserver 0:$PORT
