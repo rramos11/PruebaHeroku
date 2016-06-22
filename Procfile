@@ -1,1 +1,1 @@
-web: gunicorn pruebaHeroku.wsgi --log-file -
+web: gunicorn pruebaHeroku.wsgi -b 0.0.0.0:$PORT
